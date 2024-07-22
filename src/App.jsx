@@ -71,7 +71,9 @@ function App() {
         checked={checked}
       />
       <Alert alert={alert} />
-      <TextArea showAlert={showAlert} />
+      <TextArea
+        mode={mode}
+        showAlert={showAlert} />
     </>
     /* <Switch>
           <Route exact path="/about">

@@ -102,7 +102,7 @@ function TextArea(props) {
         ></textarea>
         
       </div>
-      <div className="container" style={{ display: "flex", gap: "10px", marginBottom: "20px" }}>
+      <div className="container" style={{ display: "flex",flexWrap: "wrap", gap: "10px", marginBottom: "20px" }}>
         <button type="button" 
         onClick={handleUpClick}
         className="btn btn-outline-primary">
